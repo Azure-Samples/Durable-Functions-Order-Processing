@@ -247,7 +247,6 @@ module dtsDashboardRoleAssignment 'app/dts-Access.bicep' = {
 }
 
 // App outputs
-output APPLICATIONINSIGHTS_CONNECTION_STRING string = monitoring.outputs.applicationInsightsConnectionString
 output AZURE_LOCATION string = location
 output AZURE_TENANT_ID string = tenant().tenantId
 output SERVICE_PROCESSOR_NAME string = processor.outputs.SERVICE_PROCESSOR_NAME
