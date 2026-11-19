@@ -1,0 +1,12 @@
+# This descriptor drives template package creation in the packaging pipeline.
+schemaVersion: 1
+
+identity: Azure.Functions.Templates.DurableOrderProcessingDotNet
+description: "Create a .NET isolated Durable Functions app that orchestrates order processing, with Bicep infrastructure for deployment using azd."
+
+projects:
+  - name: Azure Functions Durable Functions Order Processing QuickStart (.NET)
+    shortName: durable-order-processor-csharp
+    root: .
+    stack: dotnet
+    language: "C#"
